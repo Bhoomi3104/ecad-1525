@@ -6,16 +6,17 @@
       "Org": "pawrawal@in.ibm.com",
       "Space": "GanpatUniversity"
     },
-    "Name": "ecad-1525",
+    "Name": "bhoomi-1525",
     "Instrumentation": {
+      "host": "Bhoomi-1525",
       "domain": "au-syd.mybluemix.net",
       "services": [
-        "bhoomidb",
-        "Bhoomi_alert"
+        "Bhoomi_alert",
+        "bhoomidb"
       ],
       "instances": "1"
     }
   },
-  "Path": "ucount/manifest.yml",
+  "Path": "manifest.yml",
   "Type": "Cloud Foundry"
 }
