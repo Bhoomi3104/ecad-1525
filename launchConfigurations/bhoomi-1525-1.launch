@@ -1,0 +1,19 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.au-syd.bluemix.net",
+      "Org": "pawrawal@in.ibm.com",
+      "Space": "GanpatUniversity"
+    },
+    "Name": "bhoomi-1525",
+    "Instrumentation": {
+      "services": [
+        "bhoomidb",
+        "Bhoomi_alert"
+      ]
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}
